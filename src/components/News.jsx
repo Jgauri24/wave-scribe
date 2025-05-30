@@ -19,12 +19,16 @@ const News = () => {
         <div className="my-blogs">
             My Blogs
         </div>
+        <div className="weather-calender">
         <Weather/>
         <Calendar/>
+        </div>
+
+        </div>
         <footer className="news-footer">
             Footer
         </footer>
-      </div>
+      
     </div>
   );
 };
