@@ -1,6 +1,7 @@
 import React from "react";
 import Weather from "./Weather";
 import Calendar from "./Calendar";
+import "./News.css"
 
 const News = () => {
   return (
@@ -20,6 +21,9 @@ const News = () => {
         </div>
         <Weather/>
         <Calendar/>
+        <footer className="news-footer">
+            Footer
+        </footer>
       </div>
     </div>
   );
