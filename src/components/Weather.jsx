@@ -2,7 +2,7 @@ import React from 'react'
 import "./Weather.css"
 const Weather = () => {
   return (
-    <div>Weather</div>
+    <div className='weather'>Weather</div>
   )
 }
 

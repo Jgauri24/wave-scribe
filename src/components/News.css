@@ -66,11 +66,17 @@
     height: 100%;
     background-color: #111214;
     border-radius: 1rem;
-    
+
 }
 .news-footer{
     width: 100%;
     min-height: 5rem;
     background-color:#111214 ;
     border-radius: 0 0 1rem 1rem ;
+}
+.weather-calender{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
 }
